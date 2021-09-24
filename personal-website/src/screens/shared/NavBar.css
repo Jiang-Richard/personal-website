@@ -1,0 +1,27 @@
+.navbar {
+    box-shadow: 0 3px 10px rgb(36 36 36 / 15%);
+}
+
+.nav-bar-item {
+    margin: 10px 25px;
+    text-decoration: none;
+}
+
+.nav-bar-item:link {
+    text-decoration: none;
+}
+
+.nav-bar-item:visited {
+    color: rgb(34,34,34);
+}
+
+.nav-bar-item:hover {
+    cursor: pointer;
+    color: #94C937;
+}
+
+@media only screen and (max-width: 992px) {
+    .nav-bar-item {
+        margin: 10px 0px;
+    }
+}
